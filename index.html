@@ -134,7 +134,7 @@
                     if (text.length > 0) {
                         let lineText = text;
                         outputText += 'public static final String '
-                            + lineText.replaceAll('.', '_').toUpperCase() + ' = "'
+                            + lineText.replaceAll('atonto','aton.to.').replaceAll('.', '_').toUpperCase() + ' = "'
                             + lineText + '";\n';
                     }
 
